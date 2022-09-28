@@ -62,3 +62,46 @@ Caso queira colocar direto no instalação local basta vc entrar dentro da para 
 
 **OBS**: pode ate clonas dentro da pasta onde fica os plugin so que o nome da pasta tem quer ser **/rolex**
 
+
+## Botão Orçamento
+
+O botão de orçamento foi adicionado através **HOOK** do WooCommerce segue link da documentação
+https://www.businessbloomer.com/woocommerce-visual-hook-guide-single-product-page/
+
+## Adicionar Filtros aos Produtos
+
+O processo par adicionar filtros de tipos de materiais que compões os produtos é nativo do próprio
+WooCommerce basta seguir os passos descritos abaixo
+
+Basta logar no painel WordPress acessar o menu **> Personalizar**
+![Imagem](https://i.imgur.com/iqlRUVi.png)
+
+Depois acessar a opção **> Widgets**
+![Imagem](https://i.imgur.com/mzgAaO1.png)
+
+Em seguida escolher a opção **> WooCommerce Sidebar**
+![Imagem](https://i.imgur.com/4uM9R8e.png)
+
+Clicar sobre a botão com sinal de mais e buscar por 
+**> filtrar produtos por atributo**
+![Imagem](https://i.imgur.com/J9DE2HY.png)
+
+Escolher qual atributo você vai criar o filtro e concluir
+![Imagem](https://i.imgur.com/ydzCDzq.png)
+
+Agora dentro do seu painel Administrativo vai em 
+**> produtos > Atributos** e cadastre seu Atributo
+![Imagem](https://i.imgur.com/uhPUnkC.png)
+
+Apos seu atributo criado basta entrar em **configurar termos**
+![Imagem](https://i.imgur.com/3wOm0qS.png)
+
+E agora criar os filtros pelo quais você irar segmentar seu produtos
+![Imagem](https://i.imgur.com/uXq1Pmp.png)
+
+Esse termos são o elementos que aparecerão na tela de shop
+o nome da seção pode ser personalizado na aba personalização
+![Imagem](https://i.imgur.com/yDQbOJ9.png)
+
+Para relacionar o produto com o atributo, na pagina de edição do produto va ate a sessão atributos como na imagem abaixo, escolha no tipo de atributo, clique em adicionar, no campo valores adicione 1 ou mais opção, e depois salve as alterações
+![Imagem](https://i.imgur.com/tV6LxW1.png)

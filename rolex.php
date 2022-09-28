@@ -14,22 +14,14 @@ defined('ABSPATH') or die('não perturbe');
 
 function rlx_script_style_include()
 {
-    // wp_register_script("short-mosaico-script-p5", "https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js", array(), "1.0", false);
-    // wp_register_script("short-mosaico-script", plugins_url("../public/js/main.js", __FILE__), array(), "1.0", false);
-    // wp_register_style("short-mosaico-style", plugins_url("../public/css/style.css", __FILE__), array(), "1.0", "all");
-
-    // wp_enqueue_script("short-mosaico-script-p5");
-    // wp_enqueue_script("short-mosaico-script");
-    // wp_enqueue_style("short-mosaico-style");
-
-    // wp_enqueue_style("rlx-bootstrap", '//cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css');
     wp_enqueue_style("rlx-swiper-css", '//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css');
     wp_enqueue_style("rlx-style", plugins_url("public/css/style.css", __FILE__));
-
     wp_enqueue_script("rlx-lib", '//static.rolex.com/retailers/clock/retailercall.js');
     wp_enqueue_script("rlx-swiper-js", '//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js');
     wp_enqueue_script("rlx-adobe", '//assets.adobedtm.com/7e3b3fa0902e/7ba12da1470f/launch-5de25e657d80.min.js');
     wp_enqueue_script("rlx-scripts", plugins_url("public/js/scripts.js", __FILE__), array(), false, true);
+
+    include __DIR__ . "/includes/btn-single.php";
 }
 add_action('init', 'rlx_script_style_include');
 
@@ -72,7 +64,6 @@ function rlx_relogio($atributes = [], $content = null)
     return file_get_contents(__DIR__ . "/includes/relogio.php");
 }
 
-
 function rlx_hooks()
 {
 
@@ -82,7 +73,7 @@ function rlx_hooks()
         include __DIR__ . "/includes/relogio.php";
         echo "</span>";
     }
-    add_action("nectar_before_header_button_list_items", 'rlx_add_relogio',20);  
+    add_action("nectar_before_header_button_list_items", 'rlx_add_relogio', 20);
 
     function rlx_add_footer()
     {
@@ -94,9 +85,7 @@ function rlx_hooks()
     {
         include __DIR__ . "/includes/footer-whats.php";
         include __DIR__ . "/includes/popup.php";
-        
     }
     add_action("nectar_hook_before_body_close", 'rlx_add_whats');
-    
 }
 add_action('init', 'rlx_hooks');

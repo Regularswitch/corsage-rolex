@@ -4,7 +4,7 @@ window.coBrandVersion = "Hybrid"
 var slugs = {
     "rolex-na-corsage": "home page",
     "rolex": "store contact age",
-    "contato-rolex": "store contact age",
+    "contato-rolex": "store contact page",
     "nossa-historia-com-a-rolex": "history page",
     "manutencao": "servicing your rolex page",
     "novos-modelos": "new watches page",
