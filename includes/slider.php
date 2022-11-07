@@ -7,13 +7,13 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide col-4">
                             <a rel=“canonical” href="<?php echo $domain; ?>/rolex-na-corsage" class="link_slider_rlx">
-                                <img src="<?php echo $base_image; ?>/ladingrlx/slider/keep-exploring-landing-page.jpg" alt="">
+                                <img src="<?php echo $base_image; ?>/ladingrlx/slider/keep-exploring-landing-page.jpg" alt="ROLEX NA CORSAGE">
                                 <p><strong>ROLEX NA CORSAGE</strong></p>
                             </a>
                         </div>
                         <div class="swiper-slide col-4">
                             <a rel=“canonical” href="<?php echo $domain; ?>/rolex" class="link_slider_rlx">
-                                <img src="<?php echo $base_image; ?>/ladingrlx/slider/keep-exploring-rolex-collection.jpg" alt="">
+                                <img src="<?php echo $base_image; ?>/ladingrlx/slider/keep-exploring-rolex-collection.jpg" alt="COLEÇÃO ROLEX">
                                 <p><strong>COLEÇÃO ROLEX</strong></p>
                             </a>
                         </div>
@@ -25,19 +25,19 @@
                         </div>
                         <div class="swiper-slide col-4">
                             <a rel=“canonical” href="<?php echo $domain; ?>/manutencao" class="link_slider_rlx">
-                                <img src="<?php echo $base_image; ?>/ladingrlx/slider/17026af1-0b69-474e-86c8-2a9461d5d42e.jpg" alt="">
+                                <img src="<?php echo $base_image; ?>/ladingrlx/slider/17026af1-0b69-474e-86c8-2a9461d5d42e.jpg" alt="A MANUNTENÇÃO ROLEX">
                                 <p><strong>A MANUNTENÇÃO ROLEX</strong></p>
                             </a>
                         </div>
                         <div class="swiper-slide col-4">
                             <a rel=“canonical” href="<?php echo $domain; ?>/nossa-historia-com-a-rolex" class="link_slider_rlx">
-                                <img src="<?php echo $base_image; ?>/ladingrlx/slider/our-history.jpg" alt="">
+                                <img src="<?php echo $base_image; ?>/ladingrlx/slider/our-history.jpg" alt="NOSSA HISTÓRIA">
                                 <p><strong>NOSSA HISTÓRIA</strong></p>
                             </a>
                         </div>
                         <div class="swiper-slide col-4">
                             <a rel=“canonical” href="<?php echo $domain; ?>/contato-rolex" class="link_slider_rlx">
-                                <img src="<?php echo $base_image; ?>/ladingrlx/slider/keep-exploring-contact-us.jpg" alt="">
+                                <img src="<?php echo $base_image; ?>/ladingrlx/slider/keep-exploring-contact-us.jpg" alt="CONTATO">
                                 <p><strong>CONTATO</strong></p>
                             </a>
                         </div>

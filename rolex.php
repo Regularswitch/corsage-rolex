@@ -12,14 +12,27 @@
 
 defined('ABSPATH') or die('não perturbe');
 
+add_filter('script_loader_tag', 'add_type_attribute' , 10, 3);
+function add_type_attribute($tag, $handle, $src) {
+    if ( 'cmp-scripts' !== $handle ) {
+        return $tag;
+    }
+    $tag = '<script type="module" src="' . esc_url( $src ) . '" defer></script>';
+    return $tag;
+}
+
 function rlx_script_style_include()
 {
     wp_enqueue_style("rlx-swiper-css", '//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css');
     wp_enqueue_style("rlx-style", plugins_url("public/css/style.css", __FILE__));
-    wp_enqueue_script("rlx-lib", '//static.rolex.com/retailers/clock/retailercall.js');
+    // wp_enqueue_script("rlx-lib", '//static.rolex.com/retailers/clock/retailercall.js');
     wp_enqueue_script("rlx-swiper-js", '//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js');
-    wp_enqueue_script("rlx-adobe", '//assets.adobedtm.com/7e3b3fa0902e/7ba12da1470f/launch-5de25e657d80.min.js');
+    // wp_enqueue_script("rlx-adobe", '//assets.adobedtm.com/7e3b3fa0902e/7ba12da1470f/launch-5de25e657d80.min.js');
     wp_enqueue_script("rlx-scripts", plugins_url("public/js/scripts.js", __FILE__), array(), false, true);
+
+
+    wp_enqueue_script("cmp-scripts", plugins_url("public/js/main.js", __FILE__), array(), uniqid(), true);
+    
 
     include __DIR__ . "/includes/btn-single.php";
 }

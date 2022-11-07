@@ -12,7 +12,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="rlx_banner">
-                        <img src="<?php echo $base_image; ?>/ladingrlx/banner_img_1680x260.jpg" alt="">
+                        <img src="<?php echo $base_image; ?>/ladingrlx/banner_img_1680x260.jpg" alt="rolex">
                     </div>
                 </div>
             </div>
@@ -209,19 +209,24 @@
 
         <section class="destaques">
             <div class=" container-rlx">
+                <span>
+                    <strong style="margin-bottom: 20px; display: block; color: black; padding-left: 14px">
+                        Seleções em destaque
+                    </strong>
+                </span>
                 <div class="row row-grid-double">
-                    <div class="col-lg-6 col-md-6 col-12">
+                    <div class="col-6  ">
                         <div class="fig">
                             <a rel=“canonical” href="<?php echo $domain; ?>/rolex?cmplp=watches/man">
-                                <img src="<?php echo $base_image; ?>/ladingrlx/mens-watches_sky_dweller.jpg" alt="">
+                                <img class="image_cover_rlx_mobile" src="<?php echo $base_image; ?>/ladingrlx/mens-watches_sky_dweller.jpg" alt="RELÓGIOS ROLEX MASCULINOS">
                                 <span><strong>RELÓGIOS ROLEX MASCULINOS</strong></span>
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12">
+                    <div class="col-6  ">
                         <div class="fig">
                             <a rel=“canonical” href="<?php echo $domain; ?>/rolex?cmplp=watches/woman">
-                                <img src="<?php echo $base_image; ?>/ladingrlx/womens-watches_pearlmaster_39.jpg" alt="">
+                                <img class="image_cover_rlx_mobile" src="<?php echo $base_image; ?>/ladingrlx/womens-watches_pearlmaster_39.jpg" alt="RELÓGIOS ROLEX FEMININOS">
                                 <span><strong>RELÓGIOS ROLEX FEMININOS</strong></span>
                             </a>
                         </div>
@@ -231,7 +236,7 @@
                     <div class="col-12">
                         <div class="fig">
                             <a rel=“canonical” href="<?php echo $domain; ?>/rolex?cmplp=watches/gold">
-                                <img src="<?php echo $base_image; ?>/ladingrlx/gold-watches.jpg" alt="">
+                                <img class="image_cover_rlx_mobile" src="<?php echo $base_image; ?>/ladingrlx/gold-watches.jpg" alt="RELÓGIOS ROLEX EM OURO">
                                 <span><strong>RELÓGIOS ROLEX EM OURO</strong></span>
                             </a>
                         </div>
@@ -246,7 +251,7 @@
                     <div class="offset-lg-2 col-lg-8 offset-md-2 col-md-8 offset-sm-1 col-sm-10 offset-1 col-10">
                         <div class="content_img">
 
-                            <img src="<?php echo $base_image; ?>/BoutiqueCorsage_Brazil_MA18_003.jpg" alt="">
+                            <img src="<?php echo $base_image; ?>/BoutiqueCorsage_Brazil_MA18_003.jpg" alt="VISITE A NOSSA BOUTIQUE">
 
                             <h2 class="xp_title">VISITE A NOSSA BOUTIQUE</h2>
                             <div class="text_xp">

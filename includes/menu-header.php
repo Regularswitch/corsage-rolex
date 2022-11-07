@@ -6,12 +6,12 @@
         <div class="row row-flex">
             <div class="col-md-1 col-6">
                 <div class="plaque-container">
-                    <img class="rolex-int-plaque" src="<?php echo $base_image; ?>/Retailer_plaque_160x80.jpg">
+                    <img class="rolex-int-plaque" alt="Rolex" src="<?php echo $base_image; ?>/Retailer_plaque_160x80.jpg">
                 </div>
             </div>
             <div class="col-6 mobile-icon" onclick="toggle_rlx_mobile_menu()">
                 Menu
-                <img style="margin-left:8px; width:16px;" src="<?php echo $base_image; ?>/arrow_down.png">
+                <img alt="seta para baixo" style="margin-left:8px; width:16px;" src="<?php echo $base_image; ?>/arrow_down.png">
             </div>
             <div class="col-lg-11 col-md-11 col-sm-12 col-12 nopad nav-mobile">
                 <div class="rolex-menu-nav ">
@@ -38,13 +38,9 @@
             </div>
             <div class="menu-mobile-rlx-custom" onclick="toggle_rlx_mobile_menu()">
                 <?php foreach ($menus as $link => $name) { ?>
-
-
                     <a rel=“canonical” href="<?php echo $link; ?>">
                         <?php echo $name; ?>
                     </a>
-
-
                 <?php } ?>
             </div>
         </div>

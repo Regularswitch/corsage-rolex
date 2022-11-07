@@ -8,7 +8,7 @@
 
 		<?php include __DIR__ . "/includes/menu-header.php"; ?>
 
-		<img src="<?php echo  $base_image; ?>/ladingrlx/corsage_top_banner_rolex_nossa_hitoria.jpg">
+		<img src="<?php echo  $base_image; ?>/ladingrlx/corsage_top_banner_rolex_nossa_hitoria.jpg" alt="history">
 
 		<div class="rlx-header-history">
 			<h1>NOSSA HISTÓRIA - CORSAGE</h1>
@@ -22,7 +22,7 @@
 		</div>
 
 		<section class="rlx-double-cols">
-			<img src="<?php echo  $base_image; ?>/firstorigencorsage.jpeg" height="575">
+			<img src="<?php echo  $base_image; ?>/firstorigencorsage.jpeg" height="575" alt="rolex">
 			<div>
 				<div>
 					<h2>A ORIGEM</h2>
@@ -55,11 +55,11 @@
 					</p>
 				</div>
 			</div>
-			<img src="<?php echo  $base_image; ?>/ladingrlx/frente-corsage-cd-jd.jpg">
+			<img src="<?php echo  $base_image; ?>/ladingrlx/frente-corsage-cd-jd.jpg" alt="frete">
 		</section>
 
 		<div class="rlx-double-cols">
-			<img src="<?php echo  $base_image; ?>/LOJA-CORSAGE.jpeg">
+			<img src="<?php echo  $base_image; ?>/LOJA-CORSAGE.jpeg" alt="loja">
 			<div>
 				<div>
 					<h2>ROLEX</h2>
@@ -98,7 +98,7 @@
 					</p>
 				</div>
 			</div>
-			<img src="<?php echo  $base_image; ?>/ladingrlx/history-two.jpg">
+			<img src="<?php echo  $base_image; ?>/ladingrlx/history-two.jpg" alt="history">
 		</section>
 
 		<?php include __DIR__ . "/includes/slider.php"; ?>

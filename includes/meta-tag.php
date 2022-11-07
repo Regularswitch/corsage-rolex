@@ -44,13 +44,3 @@ $url = array_filter($url, function ($v) {
 });
 $url = array_values($url);
 $url = end($url);
-
-foreach ($meta_tags as $slug => $data ) {
-	if ($slug == $url) {
-        // echo "<title>".$data['title']."</title>";
-        // echo "<meta name=\"description\" content=\"".$data['description']."\" />";
-        // echo "<meta property=\"og:type\" content=\"article\" />";
-        // echo "<meta property=\"og:title\" content=\"".$data['title']."\" />";
-        // echo "<meta property=\"og:description\" content=\"".$data['description']."\" />";
-    }
-}

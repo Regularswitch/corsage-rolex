@@ -17,8 +17,8 @@ $url = array_filter($url, function ($v) {
 $url = array_values($url);
 $url = end($url);
 ?>
-<?php if( !in_array( $url, $slugs )) { ?>
-    <a href="https://wa.me/5511991196960" class="whast-fix">
+<?php if (!in_array($url, $slugs)) { ?>
+    <a href="https://wa.me/5511937074535" class="whast-fix">
         <img src="<?php echo  $base_image; ?>/whats.png" alt="troll">
     </a>
 <?php } ?>

@@ -13,12 +13,12 @@ var slugs = {
 var path = window.location.href.split('/').filter(s => s.length > 1).reverse()[0] || ''
 
 if (slugs[path]) {
-    var digitalDataLayer = {
-        page: {
-            pageType: slugs[path]
-        }
-    };
-    _satellite.pageBottom();
+    // var digitalDataLayer = {
+    //     page: {
+    //         pageType: slugs[path]
+    //     }
+    // };
+    // _satellite.pageBottom();
 }
 
 function checkWhats() {

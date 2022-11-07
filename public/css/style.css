@@ -3567,7 +3567,7 @@ body.material #header-outer:not([data-format=left-header]) #top nav>.buttons>li 
 }
 .row-grid-double {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 40px;
     width: 960px;
     max-width: 80vw;
@@ -3713,4 +3713,18 @@ body.material #header-outer:not([data-format=left-header]) #top nav>.buttons>li 
 input:checked~.rlx-cookie-box-check::before {
     background-color: green;
     margin-left: 31px;
+}
+
+#nectar-user-account {
+    display: none !important;
+}
+
+.posted_in {
+    display: none !important;
+}
+@media (max-width: 768px) {
+    .image_cover_rlx_mobile {
+        height: 300px !important;
+        object-fit: cover;
+    }
 }
