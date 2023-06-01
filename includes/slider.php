@@ -19,8 +19,8 @@
                         </div>
                         <div class="swiper-slide col-4">
                             <a rel=“canonical” href="<?php echo $domain; ?>/novos-modelos" class="link_slider_rlx">
-                                <img src="<?php echo $base_image; ?>/ladingrlx/slider/keep-exploring-new-2022-watches.jpg" alt="Novos modelos 2022">
-                                <p><strong>NOVOS MODELOS 2022</strong></p>
+                                <img src="https://regularswitch.github.io/rlx-static/img/novos-modelos-2023.jpg" alt="Novos modelos 2023">
+                                <p><strong>NOVOS MODELOS 2023</strong></p>
                             </a>
                         </div>
                         <div class="swiper-slide col-4">
