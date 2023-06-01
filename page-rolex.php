@@ -37,6 +37,23 @@
         <div class="container">
             <div class="row row-grid-home">
 
+                <?php foreach ($prodsHome as $p) { ?>
+                    <div class="col-md-4 col-6">
+                        <a rel=“canonical” href="<?php echo $baseUrl . $p['slug']; ?>" class="rlx_link">
+                            <div class="rlx_item">
+                                <picture>
+                                    <source srcset="<?php $baseUrlFoto.'lg/'. $p['id'] . '.png' ?>" media="(min-width: 800px)">
+                                    <img src="<?php $baseUrlFoto.'md/'. $p['id'] . '.png' ?>" width="100%" alt="<?php echo $p['title'] ?>">
+                                </picture>
+                            </div>
+                            <div class="rlx_item_name">
+                                <span class="rlx">Rolex</span>
+                                <p class="rlx_item_singular"><?php echo $p['title'] ?></p>
+                            </div>
+                        </a>
+                    </div>
+                <?php } ?>
+
                 <div class="col-md-4 col-6">
                     <a rel=“canonical” href="<?php echo $domain; ?>/rolex?cmplp=rolex-watches&cmpfa=air-king" class="rlx_link">
                         <div class="rlx_item">
