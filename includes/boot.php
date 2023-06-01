@@ -5,12 +5,12 @@ $base_image = plugins_url('/rolex/public/images');
 $domain = get_site_url();
 
 $menus = [
-    "{$domain}/rolex-na-corsage"=> "ROLEX NA CORSAGE",
-    "{$domain}/rolex"=> "COLEÇÃO ROLEX",
-    "{$domain}/novos-modelos"=> "NOVOS MODELOS 2023",
-    "{$domain}/manutencao"=> "A MANUTENÇÃO ROLEX",
-    "{$domain}/nossa-historia-com-a-rolex"=> "NOSSA HISTÓRIA",
-    "{$domain}/contato-rolex"=> "CONTATO",
+    "{$domain}/rolex-na-corsage" => "ROLEX NA CORSAGE",
+    "{$domain}/rolex" => "COLEÇÃO ROLEX",
+    "{$domain}/novos-modelos" => "NOVOS MODELOS 2023",
+    "{$domain}/manutencao" => "A MANUTENÇÃO ROLEX",
+    "{$domain}/nossa-historia-com-a-rolex" => "NOSSA HISTÓRIA",
+    "{$domain}/contato-rolex" => "CONTATO",
 ];
 
 define('BASE_URL_NEW_MODELS', 'https://corsage.com.br/rolex/?cmplp=');
@@ -48,69 +48,72 @@ function render_tpl_new_model($loop, $fn)
 $baseUrl = "https://corsage.com.br/rolex/?cmplp=rolex-watches&cmpfa=";
 $baseUrlFoto = "https://www.corsage.com.br/images/img-home/";
 $prodsHome = [
-	[
-		"slug" => "cosmograph-daytona",
-		"id" => "126506-0001",
-		"title" => "cosmograph daytona"
-	],
-	[
-		"slug" => "1908",
-		"id" => "52508-0006",
-		"title" => "1908"
-	],
-	[
-		"slug" => "yacht-master",
-		"id" => "226627-0001",
-		"title" => "yacht-master"
-	],
-	[
-		"slug" => "sky-dweller",
-		"id" => "336239-0002",
-		"title" => "sky-dweller"
-	],
-	[
-		"slug" => "gmt-master-ii",
-		"id" => "126713grnr-0001",
-		"title" => "gmt-master ii"
-	],
-	[
-		"slug" => "explorer",
-		"id" => "124273-0001",
-		"title" => "explorer"
-	],
-	[
-		"slug" => "oyster-perpetual",
-		"id" => "124300-0001",
-		"title" => "oyster perpetual"
-	],
-	[
-		"slug" => "day-date",
-		"id" => "228236-0012",
-		"title" => "day-date"
-	],
-	[
-		"slug" => "datejust",
-		"id" => "126234-0051",
-		"title" => "datejust"
-	],
-	[
-		"slug" => "lady-datejust",
-		"id" => "279135rbr-0001",
-		"title" => "lady-datejust"
-	],
-	[
-		"slug" => "air-king",
-		"id" => "126900-0001",
-		"title" => "air-king"
-	],
-	[
-		"slug" => "sea-dweller",
-		"id" => "126603-0001",
-		"title" => "sea-dweller"
-	],
-	[
-		"slug" => "submariner",
-		"id" => "124060-0001",
-		"title" => "submariner"
-	],
+    [
+        "slug" => "cosmograph-daytona",
+        "id" => "126506-0001",
+        "title" => "cosmograph daytona"
+    ],
+    [
+        "slug" => "1908",
+        "id" => "52508-0006",
+        "title" => "1908"
+    ],
+    [
+        "slug" => "yacht-master",
+        "id" => "226627-0001",
+        "title" => "yacht-master"
+    ],
+    [
+        "slug" => "sky-dweller",
+        "id" => "336239-0002",
+        "title" => "sky-dweller"
+    ],
+    [
+        "slug" => "gmt-master-ii",
+        "id" => "126713grnr-0001",
+        "title" => "gmt-master ii"
+    ],
+    [
+        "slug" => "explorer",
+        "id" => "124273-0001",
+        "title" => "explorer"
+    ],
+    [
+        "slug" => "oyster-perpetual",
+        "id" => "124300-0001",
+        "title" => "oyster perpetual"
+    ],
+    [
+        "slug" => "day-date",
+        "id" => "228236-0012",
+        "title" => "day-date"
+    ],
+    [
+        "slug" => "datejust",
+        "id" => "126234-0051",
+        "title" => "datejust"
+    ],
+    [
+        "slug" => "lady-datejust",
+        "id" => "279135rbr-0001",
+        "title" => "lady-datejust"
+    ],
+    [
+        "slug" => "air-king",
+        "id" => "126900-0001",
+        "title" => "air-king"
+    ],
+    [
+        "slug" => "sea-dweller",
+        "id" => "126603-0001",
+        "title" => "sea-dweller"
+    ],
+    [
+        "slug" => "submariner",
+        "id" => "124060-0001",
+        "title" => "submariner"
+    ],
 ];
+
+
+echo plugin_dir_path(dirname(__FILE__));
