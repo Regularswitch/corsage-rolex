@@ -46,7 +46,7 @@ function render_tpl_new_model($loop, $fn)
 }
 
 $baseUrl = "https://corsage.com.br/rolex/?cmplp=rolex-watches&cmpfa=";
-$baseUrlFoto = "https://www.corsage.com.br/images/img-home/";
+$baseUrlFoto = plugin_dir_path(dirname(__FILE__)) . "public/images/img-home/";
 $prodsHome = [
     [
         "slug" => "cosmograph-daytona",
@@ -116,4 +116,4 @@ $prodsHome = [
 ];
 
 
-echo plugin_dir_path(dirname(__FILE__));
+
