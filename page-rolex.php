@@ -42,8 +42,8 @@
                         <a rel=“canonical” href="<?php echo $baseUrl . $p['slug']; ?>" class="rlx_link">
                             <div class="rlx_item">
                                 <picture>
-                                    <source srcset="<?php $baseUrlFoto.'lg/'. $p['id'] . '.png' ?>" media="(min-width: 800px)">
-                                    <img src="<?php $baseUrlFoto.'md/'. $p['id'] . '.png' ?>" width="100%" alt="<?php echo $p['title'] ?>">
+                                    <source srcset="<?php echo $baseUrlFoto.'lg/'. $p['id'] . '.png' ?>" media="(min-width: 800px)">
+                                    <img src="<?php echo $baseUrlFoto.'md/'. $p['id'] . '.png' ?>" width="100%" alt="<?php echo $p['title'] ?>">
                                 </picture>
                             </div>
                             <div class="rlx_item_name">
