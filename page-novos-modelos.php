@@ -8,7 +8,9 @@
 
 		<?php include __DIR__ . "/includes/menu-header.php"; ?>
 
-		<div id="rlx-menu-container rlx-corner page-manutencao" style="padding: 0;">
+		<script id="rlx-corner">(function(b,c,a,d,f,g,h,k,l){var e=c.getElementsByTagName(a)[0];a=c.createElement(a);var m=function(a){delete b[d];a(c.getElementById(f),[g,k,h,l])};b[d]=b[d]||m;a.async=!0;a.src="https://corners.rolex.com/rlx-corner.js";e.parentNode.insertBefore(a,e)})(window,document,"script","rlxCornerCallback","rlx-corner","b30a73c76d56f5d9e259edc33dae1db7","","pt-br", "new-watches-2023");</script>
+
+		<div id="rlx-menu-container rlx-corner page-manutencao" style="padding: 0; display:none !important;">
 			<section>
 				<figure>
 					<picture>
