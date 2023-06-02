@@ -6,24 +6,9 @@
 
 	<div class="container">
 
-		<?php include __DIR__ . "/includes/menu-header.php"; ?>
+		<?php include __DIR__ . "/includes/menu-header.php"; ?>		
 
-		<script id="rlx-corner">
-			(function(b, c, a, d, f, g, h, k, l) {
-				var e = c.getElementsByTagName(a)[0];
-				a = c.createElement(a);
-				var m = function(a) {
-					delete b[d];
-					a(c.getElementById(f), [g, k, h, l])
-				};
-				b[d] = b[d] || m;
-				a.async = !0;
-				a.src = "https://corners.rolex.com/rlx-corner.js";
-				e.parentNode.insertBefore(a, e)
-			})(window, document, "script", "rlxCornerCallback", "rlx-corner", "b30a73c76d56f5d9e259edc33dae1db7", "", "pt-br", "new-watches-2023");
-		</script>
-
-		<div id="rlx-menu-container rlx-corner page-manutencao" style="padding: 0; --display:none !important;">
+		<div id="rlx-menu-container rlx-corner page-manutencao" style="padding: 0; ">
 			<section>
 				<figure>
 					<picture>
@@ -54,23 +39,8 @@
 			</section>
 
 
-
 			<section class="news-container">
 				<div class="news-grid">
-
-					<a rel="canonical" href="<?php echo $domain; ?>/rolex?cmplp=rolex-watches&cmpfa=gmt-master-ii/m126720vtnr-0001" rel="noopener" title="GMT-MASTER II" to="" draggable="false" class="news-link">
-						<figure role="img" draggable="false" class="news-img-wrapper">
-							<picture>
-								<source srcset="<?php echo  $base_image; ?>/novos-modelos/new_2022_watches_gmt_master_2_portrait.jpg" media="(max-width:1068px)">
-								<source srcset="<?php echo  $base_image; ?>/novos-modelos/new_2022_watches_gmt_master_2.jpg" media="(min-width:1069px)">
-								<img alt="GMT-MASTER II" loading="lazy" draggable="false" width="100%" class="news-img-item">
-							</picture>
-							<figcaption>
-								<span>GMT-MASTER II</span>
-							</figcaption>
-						</figure>
-					</a>
-
 
 					<?php echo render_tpl_new_model(
 						$loop_new_models,
@@ -94,8 +64,6 @@
 							";
 						}
 					) ?>
-
-
 
 				</div>
 			</section>
