@@ -27,8 +27,8 @@
 			<section>
 				<figure>
 					<picture>
-						<source srcset="<?php echo  $base_image; ?>modelos/lg/cover.jpg" media="(min-width:1069px)">
-						<img src="<?php echo  $base_image; ?>modelos/md/cover.jpg" width="100%" alt="NOVOS MODELOS ROLEX 2023" loading="lazy">
+						<source srcset="<?php echo  $base_image; ?>/modelos/lg/cover.jpg" media="(min-width:1069px)">
+						<img src="<?php echo  $base_image; ?>/modelos/md/cover.jpg" width="100%" alt="NOVOS MODELOS ROLEX 2023" loading="lazy">
 					</picture>
 				</figure>
 			</section>
@@ -78,8 +78,8 @@
 			<section class="news-container">
 				<figure>
 					<picture>
-						<source srcset="<?php echo  $base_image; ?>modelos/lg/banner.jpg" media="(min-width:1069px)">
-						<img src="<?php echo  $base_image; ?>modelos/md/banner.jpg" width="100%" alt="NOVOS MODELOS ROLEX 2023" loading="lazy">
+						<source srcset="<?php echo  $base_image; ?>/modelos/lg/banner.jpg" media="(min-width:1069px)">
+						<img src="<?php echo  $base_image; ?>/modelos/md/banner.jpg" width="100%" alt="NOVOS MODELOS ROLEX 2023" loading="lazy">
 					</picture>
 				</figure>
 			</section>
