@@ -8,15 +8,27 @@
 
 		<?php include __DIR__ . "/includes/menu-header.php"; ?>
 
-		<script id="rlx-corner">(function(b,c,a,d,f,g,h,k,l){var e=c.getElementsByTagName(a)[0];a=c.createElement(a);var m=function(a){delete b[d];a(c.getElementById(f),[g,k,h,l])};b[d]=b[d]||m;a.async=!0;a.src="https://corners.rolex.com/rlx-corner.js";e.parentNode.insertBefore(a,e)})(window,document,"script","rlxCornerCallback","rlx-corner","b30a73c76d56f5d9e259edc33dae1db7","","pt-br", "new-watches-2023");</script>
+		<script id="rlx-corner">
+			(function(b, c, a, d, f, g, h, k, l) {
+				var e = c.getElementsByTagName(a)[0];
+				a = c.createElement(a);
+				var m = function(a) {
+					delete b[d];
+					a(c.getElementById(f), [g, k, h, l])
+				};
+				b[d] = b[d] || m;
+				a.async = !0;
+				a.src = "https://corners.rolex.com/rlx-corner.js";
+				e.parentNode.insertBefore(a, e)
+			})(window, document, "script", "rlxCornerCallback", "rlx-corner", "b30a73c76d56f5d9e259edc33dae1db7", "", "pt-br", "new-watches-2023");
+		</script>
 
-		<div id="rlx-menu-container rlx-corner page-manutencao" style="padding: 0; display:none !important;">
+		<div id="rlx-menu-container rlx-corner page-manutencao" style="padding: 0; --display:none !important;">
 			<section>
 				<figure>
 					<picture>
-						<source srcset="<?php echo  $base_image; ?>/novos-modelos/new_2022_watches_cover_portrait.jpg" media="(max-width:1068px)">
-						<source srcset="<?php echo  $base_image; ?>/novos-modelos/new_2022_watches_cover.jpg" media="(min-width:1069px)">
-						<img loading="lazy" alt="banner" loading="lazy" width="100%">
+						<source srcset="<?php echo  $base_image; ?>modelos/lg/cover.jpg" media="(min-width:1069px)">
+						<img src="<?php echo  $base_image; ?>modelos/md/cover.jpg" width="100%" alt="NOVOS MODELOS ROLEX 2023" loading="lazy">
 					</picture>
 				</figure>
 			</section>
@@ -24,34 +36,24 @@
 			<section class="news-container">
 				<div>
 					<span class="news-subtitle">Relógios Rolex</span>
-					<h1 class="news-title">ROLEX NOVOS MODELOS 2022 - CORSAGE</h1>
+					<h1 class="news-title">
+						NOVOS MODELOS ROLEX <br>
+						2023 - CORSAGE
+					</h1>
 					<span class="news-description">
-						A Rolex apresenta suas mais recentes criações: relógios que insuflam ares
-						de otimismo e inovação no mundo da relojoaria. Em sua busca perene pela
-						excelência, a Rolex renova constantemente a estética e a tecnologia de
-						seus relógios emblemáticos.
-						É um convite a ampliar o campo das possibilidades e a almejar ir mais
-						alto a cada vez, mas sempre com a mesma promessa:
-						aquela de uma qualidade superlativa, tornada possível pela maestria
-						interna e pela integração de todo o know-how relojoeiro.
+						Com suas mais recentes criações, a Rolex reitera sua perpétua busca pela excelência.
+						É um desafio permanente, que se exprime por meio do aperfeiçoamento de cada elemento,
+						do questionamento de cada conquista e do domínio do know-how.
+						Os modelos apresentados demonstram a vontade de se reinventar dentro da continuidade,
+						de inovar dentro do espírito da tradição e de colocar a técnica a serviço da ousadia
+						criativa. É através desses esforços — reforçados pela visão “superlativa” que permeia
+						todo o processo de criação até o mínimo detalhe — que relógios exemplares são formados
+						e se perpetuam. Relógios que, com o tempo, se tornam ícones.
 					</span>
 				</div>
 			</section>
 
-			<section class="news-container">
-				<a rel=“canonical” href="<?php echo $domain; ?>/rolex?cmplp=rolex-watches&cmpfa=air-king/m126900-0001" rel="noopener" draggable="false" class="news-link">
-					<figure role="img" draggable="false" class="news-img-wrapper">
-						<picture class="sc-bdvvtL dzbYzl">
-							<source srcset="<?php echo  $base_image; ?>/novos-modelos/new_2022_watches_airking_portrait.jpg" media="(max-width:1068px)">
-							<source srcset="<?php echo  $base_image; ?>/novos-modelos/new_2022_watches_explorer.jpg" media="(min-width:1069px)">
-							<img alt="AIR-KING" loading="lazy" draggable="false" width="100%" class="news-img-item">
-						</picture>
-						<figcaption>
-							<span>AIR-KING</span>
-						</figcaption>
-					</figure>
-				</a>
-			</section>
+
 
 			<section class="news-container">
 				<div class="news-grid">
@@ -69,44 +71,6 @@
 						</figure>
 					</a>
 
-					<a rel=“canonical” href="<?php echo $domain; ?>/rolex?cmplp=rolex-watches&cmpfa=day-date/m228236-0012" rel="noopener" title="DAY-DATE 40" to="" draggable="false" class="news-link">
-						<figure role="img" draggable="false" class="news-img-wrapper">
-							<picture>
-								<source srcset="<?php echo  $base_image; ?>/novos-modelos/new_2022_watches_day_date_portrait.jpg" media="(max-width:1068px)">
-								<source srcset="<?php echo  $base_image; ?>/novos-modelos/new_2022_watches_day_date.jpg" media="(min-width:1069px)">
-								<img alt="DAY-DATE 40" loading="lazy" draggable="false" width="100%" class="news-img-item">
-							</picture>
-							<figcaption>
-								<span>DAY-DATE 40</span>
-							</figcaption>
-						</figure>
-					</a>
-
-					<a rel=“canonical” href="<?php echo $domain; ?>/rolex?cmplp=rolex-watches&cmpfa=yacht-master/m226658-0001" rel="noopener" title="YACHT-MASTER&nbsp;42" to="" draggable="false" class="news-link">
-						<figure role="img" draggable="false" class="news-img-wrapper">
-							<picture>
-								<source srcset="<?php echo  $base_image; ?>/novos-modelos/new_2022_watches_yacht_master_portrait.jpg" media="(max-width:1068px)">
-								<source srcset="<?php echo  $base_image; ?>/novos-modelos/new_2022_watches_yacht_master.jpg" media="(min-width:1069px)">
-								<img alt="YACHT-MASTER&nbsp;42" loading="lazy" draggable="false" width="100%" class="news-img-item">
-							</picture>
-							<figcaption>
-								<span>YACHT-MASTER&nbsp;42</span>
-							</figcaption>
-						</figure>
-					</a>
-
-					<a rel=“canonical” href="<?php echo $domain; ?>/rolex?cmplp=rolex-watches&cmpfa=datejust/m278274-0035" rel="noopener" title="DATEJUST 31" to="" draggable="false" class="news-link">
-						<figure role="img" draggable="false" class="news-img-wrapper">
-							<picture>
-								<source srcset="<?php echo  $base_image; ?>/novos-modelos/new_2022_watches_datejust_portrait.jpg" media="(max-width:1068px)">
-								<source srcset="<?php echo  $base_image; ?>/novos-modelos/new_2022_watches_datejust.jpg" media="(min-width:1069px)">
-								<img alt="DATEJUST 31" loading="lazy" draggable="false" width="100%" class="news-img-item">
-							</picture>
-							<figcaption>
-								<span>DATEJUST 31</span>
-							</figcaption>
-						</figure>
-					</a>
 
 				</div>
 			</section>
@@ -114,9 +78,8 @@
 			<section class="news-container">
 				<figure>
 					<picture>
-						<source srcset="<?php echo  $base_image; ?>/novos-modelos/new_2022_banner_portrait.jpg" media="(max-width:1068px)">
-						<source srcset="<?php echo  $base_image; ?>/novos-modelos/new_2022_banner.jpg" media="(min-width:1069px)">
-						<img style="transform: none !important;" alt="banner footer" loading="lazy" width="100%" class="news-img-item">
+						<source srcset="<?php echo  $base_image; ?>modelos/lg/banner.jpg" media="(min-width:1069px)">
+						<img src="<?php echo  $base_image; ?>modelos/md/banner.jpg" width="100%" alt="NOVOS MODELOS ROLEX 2023" loading="lazy">
 					</picture>
 				</figure>
 			</section>
