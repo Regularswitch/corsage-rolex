@@ -58,7 +58,7 @@
 			<section class="news-container">
 				<div class="news-grid">
 
-					<a rel=“canonical” href="<?php echo $domain; ?>/rolex?cmplp=rolex-watches&cmpfa=gmt-master-ii/m126720vtnr-0001" rel="noopener" title="GMT-MASTER II" to="" draggable="false" class="news-link">
+					<a rel="canonical" href="<?php echo $domain; ?>/rolex?cmplp=rolex-watches&cmpfa=gmt-master-ii/m126720vtnr-0001" rel="noopener" title="GMT-MASTER II" to="" draggable="false" class="news-link">
 						<figure role="img" draggable="false" class="news-img-wrapper">
 							<picture>
 								<source srcset="<?php echo  $base_image; ?>/novos-modelos/new_2022_watches_gmt_master_2_portrait.jpg" media="(max-width:1068px)">
@@ -70,6 +70,31 @@
 							</figcaption>
 						</figure>
 					</a>
+
+
+					<?php echo render_tpl_new_model(
+						$loop_new_models,
+						function ($p) use ($base_image) {
+							$title = $p['title'];
+							$slug = $p['slug'];
+							$id = $p['id'];
+							return "
+								<a rel=\"canonical\" href=\"{$slug}\" rel=\"noopener\" title=\"{$title}\" to=\"\" draggable=\"false\" class=\"news-link\">
+									<figure role=\"img\" draggable=\"false\" class=\"news-img-wrapper\">
+										<picture>
+											<source srcset=\"{$base_image}/modelos/lg/{$id}.jpg\" media=\"(min-width:1069px)\">
+											
+											<img src=\"{$base_image}/modelos/md/{$id}.jpg\" alt=\"{$title}\" loading=\"lazy\" draggable=\"false\" width=\"100%\" class=\"news-img-item\">
+										</picture>
+										<figcaption>
+											<span>{$title}</span>
+										</figcaption>
+									</figure>
+								</a>
+							";
+						}
+					) ?>
+
 
 
 				</div>
