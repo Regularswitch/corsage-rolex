@@ -59,7 +59,7 @@
 							</span>
 							<span>
 								<div class="contacto-icons">
-									<a rel=“canonical” onclick="return checkWhats()" href="https://web.whatsapp.com/send?phone=5511991196960&amp;text=" target="blank">
+									<a rel=“canonical” onclick="return checkWhats()" href="https://wa.me/5511991196960" target="blank">
 										<img src="<?php echo  $base_image; ?>/contato-icons/whatsapp.png" alt="Tefone">
 									</a>
 								</div>
