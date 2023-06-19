@@ -421,6 +421,7 @@
 								</a>
 							</p>
 						</div>
+						
 						<div>
 							<p class="c-form-p">
 								<input type="checkbox" name="receber" value="sim" class="c-form-check">
@@ -437,7 +438,7 @@
 						<div class="c-form-text-rigth">
 							<small class="c-form-small">Dados obrigatórios*</small>
 						</div>
-						<div class="wpcf7-response-output" aria-hidden="true"></div>
+						<div class="js-send-error wpcf7-response-output" aria-hidden="true"></div>
 					</form>
 				</div>
 			</div>
