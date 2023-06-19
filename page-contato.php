@@ -131,6 +131,8 @@
 						</div>
 
 
+
+
 						<div class="c-form-grid-email">
 							<div class="c-form-group">
 								<label class="c-form-label" for="lb-email">*E-mail</label>
@@ -450,12 +452,42 @@
 		<?php include __DIR__ . "/includes/menu-footer-mobile.php"; ?>
 
 		<?php include __DIR__ . "/includes/link-to-top.php"; ?>
-		
+
 		<?php include __DIR__ . "/includes/micro-data.php"; ?>
 
 		<?php include __DIR__ . "/includes/meta-tag.php"; ?>
 
 	</div>
+
+	<script>
+		async function SendMail() {
+			let $btn = document.querySelector('.js-send-mail')
+			let $error = document.querySelector('.js-send-error')
+			let $reset = document.querySelector('.js-send-reset')
+			$btn.classList.add('c-form-btn-success-load')
+			let form = new FormData(document.f_contato)
+			let res = await fetch("https://corsage.com.br/send-mail", {
+				method: "POST",
+				body: form
+			})
+			let json = await res.json()
+			$btn.classList.remove('c-form-btn-success-load')
+
+			$error.removeAttribute('hidden')
+			if (json.next) {
+				$error.innerHTML = "Mensagem enviada com sucesso"
+				_satellite.track("contactForm");
+				$reset.click()
+			} else {
+				$error.innerHTML = "Error - tente novamente mais tarde"
+			}
+		}
+
+		function closeMessageError() {
+			let $error = document.querySelector('.js-send-error')
+			$error.setAttribute('hidden', '')
+		}
+	</script>
 
 
 
