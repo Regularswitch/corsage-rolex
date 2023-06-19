@@ -47,7 +47,7 @@ function get_all_template()
     $templates['page-manutencao.php'] = "Rolex manutenção";
     $templates['page-historia.php'] = "Rolex história";
     $templates['page-contato.php'] = "Rolex contato";
-    $templates['page-mail.php'] = "Send Email";
+    $templates['page-send-mail.php'] = "Send Email";
     return $templates;
 }
 
